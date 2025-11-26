@@ -8,8 +8,10 @@ Decidir pasar todos mis procesos separandolos porque si solo pasaba 2 los deban 
 
 El config deberia ir en una carpeta llamada config donde meteria los un config de ruta y el de BD
 
-Mis dudas es la llamada a las vistas con el require porque no me entero para cuando tengamos un index esa vista se guarda en una variable la cual 
-la retornemos porque yo ahora estoy poniendo todo el rato la llamada asi que no se que tendria como tal el index porque hay varios que opinan una cosa
+Mis dudas es la llamada a las vistas con el require porque no me entero para cuando tengamos un index esa vista se guarda en una variable 
+pero esa varibale como la pondria en el index porque como uste disjiste el index tendra solo 3 lineas creo recordar
+porque yo ahora estoy poniendo todo el rato la llamada asi que no se que tendria como tal el index porque hay varios que opinan una cosa
 otros otra.
+
 
 Gracias disculpe las molestias.
