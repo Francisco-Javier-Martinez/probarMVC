@@ -1,4 +1,5 @@
 <?php
+    /*El __DIR__ obtiene la ruta completa al directorio actual*/
 	require_once __DIR__ . '/../modelo/Mboletin_Animales.php';
 	
 	$animalesUsuarios= new Boletin_animales();
@@ -7,4 +8,5 @@
 	
 	// Mostrar la vista
 	require_once __DIR__ . '/../vista/sacarInner.php';
+
 ?>
