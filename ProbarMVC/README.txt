@@ -5,6 +5,9 @@ En resumen esta realizado sin index
 Tengo creado 3 carpetas 
 controlador,vista,modelo
 Decidir pasar todos mis procesos separandolos porque si solo pasaba 2 los deban ya no iba asique decidi pasarlos todo
+En el controlador meti las llamadas de arriba de las vistas para que llamen a modelo para llevarme la informacion que queria
+En el modelo meti las clases de mi aplicacion
+Y las vista deje el html con los trozos de las etiqueta php para monstrar los datos que queria que se visualicen de la BD
 
 El config deberia ir en una carpeta llamada config donde meteria los un config de ruta y el de BD
 
@@ -15,4 +18,5 @@ otros otra.
 
 
 Gracias disculpe las molestias.
+
 
