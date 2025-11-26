@@ -1,4 +1,6 @@
 <?php
+    /*El __DIR__ obtiene la ruta completa al directorio actual*/
+
     require_once __DIR__ . '/../modelo/Mboletin_Usuario.php';
     $usuario = new Boletin_Usuario();
     $mensaje = '';
@@ -18,4 +20,5 @@
         $enlace_volver = 'cMostrar.php';
         require_once __DIR__ . '/../vista/existo.php';
     }
+
 ?>
