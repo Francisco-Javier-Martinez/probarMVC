@@ -57,7 +57,7 @@ class cRegistroUsuario {
         return $lista;
     }
 
-    // Devuelve lista de usuarios (o mensaje de error en mensaje)
+    // Devuelve lista de usuarios
     public function monstrarUsuarioModificarBorrar() {
         $lista = $this->usuarioModelo->sacarUsuarios();
         if (is_string($lista)) {
@@ -132,7 +132,6 @@ class cRegistroUsuario {
             $errores[] = '<h1>Debe seleccionar al menos un animal.</h1>';
         }
 
-        // 2. Si hay errores, detener y cargar la vista de error
         if (count($errores) > 0) {
             $this->vistaCargar = 'error.php';
             $this->mensaje = $errores;
@@ -208,5 +207,6 @@ class cRegistroUsuario {
         return false;
     }
 }
+
 
 ?>
